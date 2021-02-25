@@ -1,0 +1,4 @@
+
+<!-- <div class="col" *ngFor="let heroe of heroes; let i = index"></div> -->
+
+<app-heroe-tarjeta (heroeSeleccionado)="verHeroe($event)" [heroe] ="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-tarjeta>
